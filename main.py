@@ -5,19 +5,11 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from bs4 import BeautifulSoup
 import re
 from datetime import datetime
-BOT_TOKEN = '6702017039:AAHm9f2UNYvmKeDzw0cTfJC7dzXKksdEsTQ'
-CHANNEL_ID = '@kiyicihaberr'
+BOT_TOKEN = '6888677441:AAEQMucVBX-V1cNxUFOZO0iEcjzEV7fuoi0'
+CHANNEL_ID = '@Fenerbahce1907haber'
 RSS_FEED_URLS = [
-    'https://www.trthaber.com/gundem_articles.rss',
-    'https://trthaber.com/turkiye_articles.rss',
-    'https://www.trthaber.com/dunya_articles.rss',
-    'http://www.haberturk.com/rss',
-    'https://www.sabah.com.tr/rss/gundem.xml',
-    'http://www.turkiyehaberajansi.com/rss.xml',
-    'http://www.mynet.com/haber/rss/sondakika',
-    'http://www.yurtgazetesi.com.tr/rss.php',
-    'http://www.star.com.tr/rss/rss.asp',
-    'https://www.sabah.com.tr/rss/gundem.xml',
+    'https://www.fotomac.com.tr/fenerbahce#_articles.rss',
+    'https://www.fanatik.com.tr/takim/fenerbahce/futbol_articles.rss',
 ]
 last_titles = {}
 def clean_html(raw_html):
