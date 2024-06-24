@@ -9,7 +9,7 @@ BOT_TOKEN = '6888677441:AAEQMucVBX-V1cNxUFOZO0iEcjzEV7fuoi0'
 CHANNEL_ID = '@Fenerbahce1907haber'
 RSS_FEED_URLS = [
     'https://www.fotomac.com.tr/fenerbahce#_articles.rss',
-    'https://www.fanatik.com.tr/takim/fenerbahce/futbol_articles.rss',
+    'https://www.fotomac.com.tr/rss/fenerbahce.xml',
 ]
 last_titles = {}
 def clean_html(raw_html):
